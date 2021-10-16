@@ -3,11 +3,49 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   background-image: linear-gradient(#ff9500, #ff5e3a);
-  font-family: 'Overpass', sans-serif;
+  font-family: Overpass, sans-serif;
+  color: #fff;
+  text-align: center;
 }
 
 *,
 *::before,
 *::after {
   box-sizing: inherit;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.icon {
+  fill: #fff;
+}
+
+.icon svg {
+  height: 8rem;
+  width: 8rem;
+  display: block;
+  margin: auto;
+}
+
+h1 {
+  text-align: left;
+}
+
+h3 {
+  font-size: 1.125rem;
+  text-align: left;
+  font-weight: lighter;
+}
+
+a {
+  border: .2rem solid rgba(255, 255, 255, .7);
+  padding: 6vmin;
+  text-decoration: none;
+  color: #fff;
+  margin-top: 1rem;
+  display: inline-block;
+  margin-bottom: 1rem;
 }
