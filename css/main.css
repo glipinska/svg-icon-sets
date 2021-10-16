@@ -50,6 +50,10 @@ a {
   margin-bottom: 1rem;
 }
 
+a:hover {
+  color: #fff;
+}
+
 @media only screen and (min-width: 38em) {
 
   html {
@@ -57,36 +61,58 @@ a {
   }
 
   h1,
-    p {
-      margin: 0 0 1.4rem;
-      text-align: center;
-    }
+  p {
+    margin: 0 0 1.4rem;
+    text-align: center;
+  }
 
-    body {
-      padding: 2rem;
-      margin: 1rem 0;
-    }
+  body {
+    padding: 2rem;
+    margin: 1rem 0;
+  }
 
-section {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  justify-content: space-between;
-  gap: 2.1rem;
+  section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+    gap: 2.1rem;
+  }
+
+  main {
+    margin-top: 1.5rem;
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
+
+  a {
+    padding: 1rem;
+    margin: auto;
+    font-size: 1.125rem;
+    text-align: left;
+  }
+
 }
 
-main {
-  margin-top: 1.5rem;
-}
+@media only screen and (min-width: 60em) {
 
-h3 {
-  font-size: 1rem;
-}
+  body {
+    margin: 1.5rem;
+    padding: 1.5rem;
+  }
 
-a {
-  padding: 1rem;
-  margin: auto;
-  font-size: 1.125rem;
-  text-align: left;
-}
+  section {
+    margin-bottom: 6vmin;
+  }
+
+  h1 {
+    padding: 2rem;
+    display: flex;
+  }
+
+  h3 {
+    padding: 1rem 1.5rem;
+  }
 
 }
