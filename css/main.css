@@ -1,0 +1,13 @@
+html {
+  box-sizing: border-box;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  background-image: linear-gradient(#ff9500, #ff5e3a);
+  font-family: 'Overpass', sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
